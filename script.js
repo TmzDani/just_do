@@ -28,7 +28,7 @@ function createTaskElement(text, columnId) {
     const actions = document.createElement("div");
     actions.classList.add("actions");
 
-    // ✏️ editar
+    // editar
     const editBtn = document.createElement("button");
     editBtn.textContent = "✏️";
 
@@ -42,7 +42,7 @@ function createTaskElement(text, columnId) {
         }
     };
 
-    // 🗑️ excluir
+    // excluir
     const deleteBtn = document.createElement("button");
     deleteBtn.textContent = "🗑️";
 
