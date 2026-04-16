@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Just Do - Kanban</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Just Do</h1>
+
+    <div class="task-input">
+        <input type="text" id="taskInput" placeholder="Nova tarefa...">
+        <button onclick="addTask()">+</button>
+    </div>
+
+    <div class="board">
+        <div class="column" id="todo">
+            <h2>A fazer</h2>
+        </div>
+
+        <div class="column" id="doing">
+            <h2>Fazendo</h2>
+        </div>
+
+        <div class="column" id="done">
+            <h2>Concluído</h2>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
