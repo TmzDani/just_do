@@ -1,6 +1,6 @@
 body {
     font-family: Arial;
-    background: #f6f5ff;
+    background: #d8d5f7;
     padding: 20px;
 }
 
@@ -19,7 +19,7 @@ h1 {
 input {
     padding: 10px;
     border-radius: 8px;
-    border: 1px solid #ddd;
+    border: 1px solid #978080;
 }
 
 button {
@@ -41,7 +41,7 @@ button:hover {
 
 .column {
     flex: 1;
-    background: #ffffff;
+    background: #dabce0;
     padding: 10px;
     border-radius: 12px;
     min-height: 300px;
@@ -52,7 +52,7 @@ button:hover {
 }
 
 .task {
-    background: #e9e7ff;
+    background: #d5baee;
     padding: 10px;
     border-radius: 8px;
     margin-bottom: 8px;
